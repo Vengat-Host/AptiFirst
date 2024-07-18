@@ -1,3 +1,6 @@
+*{
+   font-family:sans-serif ;
+}
 body{
     background-color: #E0F7FA;
 }
@@ -18,8 +21,19 @@ h2{
 }
 /* Quantitative Css */
 .quanhead{
-    margin-left: 100px;
+    margin-left: 35px;
 }
 a{
     text-decoration: none;
+    
+}
+table,th,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    box-sizing: border-box;
+}
+th,td{
+    width: 250px;
+    padding: 10px;
 }
